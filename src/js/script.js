@@ -17,7 +17,9 @@
 const slider = tns({
     container: '.carousel__inner',
     items: 1,
-    slideBy: 'page'
+    slideBy: 'page',
+    controls: false,
+    nav: false
   });
 
 document.querySelector('.prev').addEventListener('click', function () {
